@@ -17,11 +17,9 @@ const app = express();
 //connect DB 
 connectDB();
 
-
 //middleware
 app.use(express.json()); // for parsing JSON body
 app.use(cors())
-
 
 //Mounting the route
 app.use('/', alertRoute);
