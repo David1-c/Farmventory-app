@@ -4,10 +4,11 @@
     "description": "My Farmventory application",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     },
     "author": "Adejumo David",
     "license": "ISC",
-    "dependencies": {}
-  }
-  
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}

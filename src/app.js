@@ -9,7 +9,6 @@ import harvestRoute from './harvestRoute.js';
 import pestRoute from './routes/pestRoute.js';
 import userRoute from './routes/userRoute.js';
 
-
 dotenv.config();
 
 //Initialling the application 
@@ -31,6 +30,7 @@ app.use('/api/inventory', inventoryRoute);
 app.use('/api/harvests', harvestRoute);
 app.use('/api/pests', pestRoute);
 app.use('/api/users', userRoute);
+
 
 //Listen to our server
 const PORT = process.env.PORT ||3000;
